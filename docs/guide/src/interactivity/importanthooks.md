@@ -104,7 +104,7 @@ And then to write into the hook value, use the `write` method:
 names.write().push("Tiger");
 ```
 
-If you don't want to re-render the component when names is updated, then we can use the `write_silent` method:
+If you don't want to re-render the component when names are updated, then we can use the `write_silent` method:
 
 ```rust
 names.write_silent().push("Transmogrifier");
